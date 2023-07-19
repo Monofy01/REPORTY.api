@@ -16,5 +16,5 @@ phases:
   post_build:
     commands:
       - echo "UPDATING LAMBDA"
-      - aws lambda update-function-code --function-name generador_xlsx --zip-file fileb://deployment_package.zip
+      - aws lambda update-function-code --function-name reporty_api --zip-file fileb://deployment_package.zip
       - echo "DONE BUILDING"
